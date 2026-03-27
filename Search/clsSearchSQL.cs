@@ -87,7 +87,7 @@ namespace Group_Assignment.Search
 
                 if (hasInvoiceDate)
                 {
-                    whereClauses.Add("DateValue(InvoiceDate) = ?");
+                    whereClauses.Add("InvoiceDate = ?");
                 }
 
                 if (hasTotalCharge)
